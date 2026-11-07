@@ -11,13 +11,13 @@ print("0. Iesire")
 raspuns=int(input("Ce numar alegi? "))
 scor = 0
 if raspuns == 1:
-    i1 = input("ai voie sa atnigi mingea cu mana la fotbal? ").lower()
+    i1 = input("ai voie sa atingi mingea cu mana la fotbal? ").lower()
     if i1 == "nu":
         print("corect")
         scor += 1   
     else:
         print("gresit")
-    i2 = int(input("in ce an sa retras Ronaldo de la echipa nationala a portugaliei "))
+    i2 = int(input("in ce an sa retras Ronaldo de la echipa nationala a portugaliei? "))
     if i2 == 2026:
         print("corect")
         scor += 1
@@ -25,5 +25,17 @@ if raspuns == 1:
         print("gresit")
 print(scor)
 
+if raspuns == 2:
+    i1=input("care este cel mai inalt animal din lume?").lower()
+    if i1=="girafa":
+        print("adevarat")
+        scor+=1
+    else:
+        print("gresit")
 
- 
+    i2=input("care este cel mai greu mamifer din lume?").lower()
+    if i2=="balena albastra":
+        print("adevarat")
+        scor+=1
+    else:
+        print("gresit")
