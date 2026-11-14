@@ -39,3 +39,27 @@ if raspuns == 2:
         scor+=1
     else:
         print("gresit")
+
+if raspuns == 4:
+    i1 = input("Ce organ pompează sângele în corp?\n A) Plămânii \n B) Inima\n C) Ficatul\n").lower()
+    if i1 == "b":
+        print("adevarat")
+        scor+=1
+    else:
+        print("Gresit")
+
+
+    i1 = input("Care este simbolul chimic al oxigenului?\n A) O \n B) Ox\n C) Og\n").lower()
+    if i1 == "a":
+        print("adevarat")
+        scor+=1
+    else:
+        print("Gresit")
+
+    i1 = input("În ce unitate se măsoară temperatura?\n A) Kilogram \n B) Metru\n C) Grad Celsius\n").lower()
+    if i1 == "c":
+        print("adevarat")
+        scor+=1
+    else:
+        print("Gresit")
+    print(scor)
