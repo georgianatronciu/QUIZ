@@ -71,4 +71,7 @@ if raspuns == 3:
     else:
         print("Pe litera q" )
     print(scor)
-       
+
+while raspuns==0:
+    print("Ai ales sa iesi din joc!")
+    break
