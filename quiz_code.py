@@ -63,3 +63,12 @@ if raspuns == 4:
     else:
         print("Gresit")
     print(scor)
+if raspuns == 3:
+    i3=input("Cum arunci blocurile din inventarul tau?").lower()
+    if i3 == "q":
+        print("adevarat")
+        scor+=1
+    else:
+        print("Pe litera q" )
+    print(scor)
+       
