@@ -17,3 +17,19 @@ if i2 == "earworm":
     scor+=1
 else:
     print("era greu,recunosc")
+
+i3 = input("Care este cea mai tristă parte dintr-o piesă? ").lower()
+if i3 == "reclama":
+    print("simtim la felll,gandim la felll")
+    scor+=1
+else:
+    print("ti-a murit creativitatea, boss?")
+
+i4 = input("Ce instrument este cel mai probabil să fie folosit într-o ceartă? ").lower()
+if i4 == "vioara":
+    print("bravo,imi imaginez o cearta si pe fundal o vioara mica")
+    scor+=1
+else:
+    print("bun bun,daaar,nu destul de creativ")
+
+print(scor)
