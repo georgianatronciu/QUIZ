@@ -22,6 +22,7 @@ def play():
         scor += 1
     else:
         print("Gresit! Raspunsul corect este Uraniu")
+
     return scor
 
 play()
