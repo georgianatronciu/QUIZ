@@ -30,6 +30,7 @@ if i4 == "vioara":
     print("bravo,imi imaginez o cearta si pe fundal o vioara mica")
     scor+=1
 else:
-    print("bun bun,daaar,nu destul de creativ")
+    print("bun bun,daaaaaaaaaaar,nu destul de creativ")
+
 
 print(scor)
