@@ -13,7 +13,15 @@ def play():
         scor += 1
     else:
         print("gresit")
+    i3 = input("care limbaj de programare este cunoscut pentru utilizarea sa in dezvoltarea paginilor web ").lower()
+    if i3 == "javascript":
+        print("corect")
+        scor += 1
+    else:
+        print("gresit")
+    return scor
 play()
+
 
 
 
