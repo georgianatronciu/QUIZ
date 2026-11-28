@@ -1,2 +1,0 @@
-print("Begin")
-print("Incepe")
