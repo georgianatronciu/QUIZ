@@ -11,4 +11,6 @@ print()
 print("Cum se joacă: alege o categorie și răspunde la întrebări.")
 print("Primești un punct pentru fiecare răspuns corect.")
 print()
+print("Incepe")
+
 print("Begin")
