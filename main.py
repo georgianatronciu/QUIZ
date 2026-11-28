@@ -25,3 +25,21 @@ while True:
         print("Opțiune invalidă. Încearcă din nou.")
     
 
+nume = input("Care e numele tau? ")
+
+print(f"Salut {nume}!")
+
+print("Succes! Ai fost inregistrat cu succes!")
+print("===================================")
+print("                QUIZ               ")
+print("===================================")
+print("numele echipei:")
+print("            CeiMaiTariDinLume")
+print("===================================")
+print("       Georgiana Tronciu         ")
+print("       Sara                      ")
+print("       Matei Gabriel Cringasu    ")
+print("       Mihai                      ")
+print("       Matei Condrea               ")
+print("       Alex                       ")
+print("===================================")
